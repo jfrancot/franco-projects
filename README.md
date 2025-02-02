@@ -15,7 +15,7 @@ In this repository, you’ll find a variety of projects highlighting the followi
 To get started with any of the projects, clone this repository:
 
 ```bash
-git clone https://github.com/jfrancot/portfolio.git
+git clone https://github.com/jfrancot/franco-projects.git
 ```
 
 Then, navigate to the specific project folder to see its details and setup instructions.
