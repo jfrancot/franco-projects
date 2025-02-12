@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #002147, #004488);
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    background: rgba(0, 33, 71, 0.9);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+
+/* Sections */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.section:hover {
+    transform: scale(1.02);
+}
+
+/* Profile Photo */
+.profile-photo {
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px;
+    border: 3px solid #ffd700;
+}
+
+.skills-list {
+    list-style: none; /* Removes bullet points */
+    padding: 0; /* Removes extra padding */
+    text-align: center; /* Centers text */
+}
+
+.resume-link {
+    display: inline-block;
+    background-color: #ffd700;
+    color: #002147;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.resume-link:hover {
+    background-color: #ffcc00;
+}
+
+.github-link {
+    display: inline-block;
+    background-color: #ffd700;
+    color: #002147;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.github-link:hover {
+    background-color: #ffcc00;
+}
+
+.mail-link {
+    display: inline-block;
+    background-color: #ffd700;
+    color: #002147;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.mail-link:hover {
+    background-color: #ffcc00;
+}
+
+footer {
+    background: rgba(0, 33, 71, 0.9);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
